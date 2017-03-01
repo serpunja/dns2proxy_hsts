@@ -6,13 +6,13 @@ dns2proxy for offensive cybersecurity v1.0
 python dns2proxy.py -h for Usage.
 
 Example:
-python dns2proxy.py -i eth0 -u 192.168.1.101 -d 192.168.1.200
+python dns2proxy.py -i wlan1 -u 192.168.1.101 -d 192.168.1.200
 
 Example for no forwarding (only configured domain based queries and spoofed hosts):
-  python2.6 dns2proxy.py -i eth0 -noforward
+  python2.6 dns2proxy.py -i wlan1 -noforward
 
 Example for no forwarding but add IPs
-  python dns2proxy.py -i eth0 -I 192.168.1.101,90.1.1.1,155.54.1.1 -noforward
+  python dns2proxy.py -i wlan1 -I 192.168.1.101,90.1.1.1,155.54.1.1 -noforward
 
 Author: Leonardo Nve ( leonardo.nve@gmail.com)
 '''
